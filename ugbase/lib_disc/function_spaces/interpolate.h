@@ -653,6 +653,7 @@ void Interpolate(number val,
 // Pybind11
 // to Do:
 // This Version is not able to handle passed python functions - Therefore a function Handler for python would be usefull
+// instead, a python function is passed as a string - C++ will execute it 
 ///////////////
 #ifdef UG_USE_PYBIND11
 template <typename TGridFunction>
