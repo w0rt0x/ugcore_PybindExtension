@@ -97,6 +97,7 @@ class NestedIterationSolver
 	///	sets the linear solver (this should be a fixed number of multi-grid cycles )
 		void set_linear_solver(SmartPtr<ILinearOperatorInverse<vector_type> > LinearSolver) {m_spLinearSolver = LinearSolver;}
 
+
 	/** @name IOperatorInverse interface*/
 	///@{
 	/// This operator inverts the Operator N: Y -> X

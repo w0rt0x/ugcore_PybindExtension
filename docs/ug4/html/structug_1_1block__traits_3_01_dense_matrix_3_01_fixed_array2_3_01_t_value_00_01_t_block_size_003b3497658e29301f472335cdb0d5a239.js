@@ -1,0 +1,4 @@
+var structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01_t_value_00_01_t_block_size_003b3497658e29301f472335cdb0d5a239 =
+[
+    [ "inverse_type", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01_t_value_00_01_t_block_size_003b3497658e29301f472335cdb0d5a239.html#a27f72ac5f2c96d2ba519961f7de4bfa2", null ]
+];

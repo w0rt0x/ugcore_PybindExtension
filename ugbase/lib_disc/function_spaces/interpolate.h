@@ -48,6 +48,10 @@
 #include "bindings/lua/lua_user_data.h"
 #endif
 
+#ifdef UG_USE_PYBIND11
+#include "bindings/pybind/python_user_data_impl.h"
+#endif
+
 namespace ug{
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -645,7 +649,22 @@ void Interpolate(number val,
 	InterpolateDiff(sp, spGridFct, cmp, subsets, time,m_diff_pos);
 }
 
-
+///////////////
+// Pybind11
+// to Do:
+// This Version is not able to handle passed python functions - Therefore a function Handler for python would be usefull
+///////////////
+#ifdef UG_USE_PYBIND11
+template <typename TGridFunction>
+void Interpolate4py(const char* func, const char* funcname,
+                 SmartPtr<TGridFunction> spGridFct, const char* cmp)
+{
+	static const int dim = TGridFunction::dim;
+		SmartPtr<UserData<number, dim> > sp =
+			make_sp(new PythonUserData<number, dim>(func, funcname));
+	Interpolate(sp, spGridFct, cmp, NULL, 0.0);
+}
+#endif
 
 ///////////////
 // lua data

@@ -1,0 +1,4 @@
+var structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_012_00_012_00_01_t_ordering_01_4_01_4_01_4 =
+[
+    [ "inverse_type", "structug_1_1block__traits_3_01_dense_matrix_3_01_fixed_array2_3_01number_00_012_00_012_00_01_t_ordering_01_4_01_4_01_4.html#ae070cf6a172d7471bd18a11e56c82d61", null ]
+];

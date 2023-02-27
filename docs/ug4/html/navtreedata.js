@@ -1,0 +1,247 @@
+/*
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
+
+ The MIT License (MIT)
+
+ Copyright (C) 1997-2020 by Dimitri van Heesch
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
+*/
+var NAVTREE =
+[
+  [ "ug4", "index.html", [
+    [ "ug4 - Documentation", "index.html", "index" ],
+    [ "Modules", "usergroup0.html", [
+      [ "All", "modules.html", "modules" ],
+      [ "ugBase", "group__ugbase.html", null ],
+      [ "libAlgebra", "group__lib__algebra.html", null ],
+      [ "libDiscretization", "group__lib__discretization.html", null ],
+      [ "libGrid", "group__lib__grid.html", null ],
+      [ "Plugins", "plugins/group__plugins.html", null ],
+      [ "Registry", "regdocu/namespaceug4_bridge.html", null ],
+      [ "Scripts", "group__scripts.html", null ],
+      [ "Apps", "apps/group__apps.html", null ]
+    ] ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
+        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
+        [ "Typedefs", "namespacemembers_type.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", "namespacemembers_eval" ]
+      ] ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Typedefs", "functions_type.html", "functions_type" ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", "functions_eval" ],
+        [ "Related Functions", "functions_rela.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", "globals_func" ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
+      ] ]
+    ] ]
+  ] ]
+];
+
+var NAVTREEINDEX =
+[
+"_i_ordering_algorithm_8h.html",
+"basic_test_8cpp.html",
+"boost__serialization__routines_8h.html#a30d35ef5e870e1b2dc6d37c3f1f840ae",
+"class_fixed_allocator.html",
+"class_sparse_matrix.html#a77f6ba669b1fcd5e57858e33961fecd4",
+"classboost_1_1bucket__sorter_1_1stack___1_1const__iterator.html#acfa0c5f9f0b2c7fcebe89acbc9898218",
+"classpcl_1_1_process_communicator.html#a1ab7c861d3d2ba66df6f993538730335",
+"classug_1_1_agglomerating_base.html#ac64648b0c68b132b5596d671429c6cfc",
+"classug_1_1_assembled_multi_grid_cycle.html#a11538587cbf3da63785f12c555690223",
+"classug_1_1_attached_element_list.html#af922c2f93387f112b9b5fa84ff0cb620",
+"classug_1_1_b_o_o_l.html#a7e6094c16d055d684b246b2d937a5549",
+"classug_1_1_block_gauss_seidel_iterative.html#a9993eb61c383bcae08179d6df37dd2ae",
+"classug_1_1_c_r_f_v_geometry_1_1_b_f.html#a586e6b55dd4d5a4b0458299a5f242a48",
+"classug_1_1_com_pol___check_distributed_parent_states.html#a48ba66982637304c86beb3a898fc9bb1",
+"classug_1_1_com_pol___vec_subtract.html#aa008b10b85d8b76db11b5ccb067d0922",
+"classug_1_1_const_attached_element_list_iterator.html#a302f68020debf2412b87eb8152b5a078",
+"classug_1_1_constraining_face.html#a7e5724f2f2f6b570798ba601c3082d14",
+"classug_1_1_cylinder_projector.html#a56387abed3906ecd5c14c35bb240c8b1",
+"classug_1_1_debug_writing_object.html#ae29351023267d936aa22cea6cb2cf39d",
+"classug_1_1_dependent_user_data.html#af45ac53ece1b8e4afbe8b596124e8954",
+"classug_1_1_dim_f_e_geometry.html#ad677f73da6e4f8c664d35a8c722ae508",
+"classug_1_1_dim_f_v1_i_b_geometry.html#ae91bc20fc57342c12aae7d7225c08bf3",
+"classug_1_1_dim_f_v_geometry_1_1_s_c_v_f.html#a2db0a4856d521bed6818b58de00e607e",
+"classug_1_1_dirac_source_disc.html#a924e76fa53550a66b3cadef6fcee95b1",
+"classug_1_1_do_f_count.html",
+"classug_1_1_domain_discretization_base.html#a2161f26a1ad7fce7c332f87d6d223e65",
+"classug_1_1_elliptic_cylinder_projector.html#a546de4079c7062137958ab24512d18e9",
+"classug_1_1_f_v1_geometry__gen_1_1_b_f.html#a7eccee863bda3d1815c5d191c21738eb",
+"classug_1_1_f_v1_inner_boundary_elem_disc.html#a20bdf474f9ab82fda70e985137f16d3b",
+"classug_1_1_f_v_geometry_1_1_s_c_v_f.html#a884ee8ccec6561d1d0d99f7ae9df9d6b",
+"classug_1_1_field.html#af334cdf37c9ca93ece20dfb9fb390662",
+"classug_1_1_flex_lagrange_l_s_f_s_3_01_reference_prism_01_4.html#a398e3cc9153036fc58062789cb04b6dc",
+"classug_1_1_g_p_u_sparse_matrix.html#a318538850f5b78b35dcb1f034a9404df",
+"classug_1_1_gauss_quad_base.html#a0077b9da529425be11a9e8e1d9e70dad",
+"classug_1_1_gauss_seidel.html#aef9592646b438ef64e423e27d99f3b38",
+"classug_1_1_global_multi_grid_refiner.html#ae06239bd80907477f4cab700dbd1bb50",
+"classug_1_1_grid.html#aaa67c86aa393026231133504539d0df1",
+"classug_1_1_grid_function.html#acca03c38af694081301b8f19c36ffaf2",
+"classug_1_1_grid_object_collection.html#a819c5960b80c4a04e967e3750d40433e",
+"classug_1_1_grid_writer_v_t_u.html#a4bafad143a4d8d17b08f1fba23b0150f",
+"classug_1_1_h_c_r_f_v_geometry_1_1_s_c_v_f.html",
+"classug_1_1_hanging_node_refiner___multi_grid.html#a47aa5bf14dbcfabda8c2c47ea500b3f1",
+"classug_1_1_horizontal_algebra_layouts.html#adada3869e3f2779fd3594d7e5af1e96e",
+"classug_1_1_i_cpl_user_data.html#a5228041af1fcb7c8df365a69fafbb5f5",
+"classug_1_1_i_elem_assemble_funcs.html#a8505bd32d64ec7e42efb04b952fdd6f8",
+"classug_1_1_i_err_est_data.html#a88cefe3ba4a64f118682d537f5662971",
+"classug_1_1_i_lagrange_multiplier_disc.html#a326818994935a0eff603b15886b58e47",
+"classug_1_1_i_partitioner.html#a9a6687ff8269cda7a21c5476b3538e62",
+"classug_1_1_i_selector.html#ab432ede14027ade33b1acbab0501735a",
+"classug_1_1_i_vector___algebra_down_cast_to.html#aca9124b56f7c07c6a3f259ab6e8265ac",
+"classug_1_1_k_d_tree_static.html#a95fa0aca21fc0f52bb6f6fc07c5db49b",
+"classug_1_1_l_u.html#afc77da34a08ec5c8167001efbdb95cb1",
+"classug_1_1_lagrange_l_s_f_s_3_01_reference_tetrahedron_00_01_t_order_01_4.html#a7bea799e7bb5e19b2d63a2edc5068c53",
+"classug_1_1_loader_obj.html#a3cefedfc8dfb43dbdfc692f1305a13c6",
+"classug_1_1_local_shape_function_set_wrapper.html#a110f813c3720357395e4f4fa5cb4e8f3",
+"classug_1_1_m_g_selector.html#a0d5fc94aa869728b9dc731b3571565ad",
+"classug_1_1_map_sparse_matrix_1_1row__iterator.html#a72b8cf6e8d4aa8d9b2c8da43aa087b1e",
+"classug_1_1_math_vector_3_013_00_01_t_01_4.html#a927922ecb7a70c2dbf0d075e12780de5",
+"classug_1_1_message_hub.html#aefaa470a77099b175c4ddc717fc21afea0872a91ab1a079f35c158aafadf7d6ac",
+"classug_1_1_multi_grid.html#acd39d41224e9f050d27bb962fe8e92e0",
+"classug_1_1_n_l_gauss_seidel_solver.html#ae13dde305bf1fdec875ed91b7e383849",
+"classug_1_1_neurite_projector.html#a01f04c5453b99cb25f5bbfaf501069f9",
+"classug_1_1_overlying_subset_finder.html#a4b2d5f768ea2c2a301618f2eccb4b721",
+"classug_1_1_parallel_global_fractured_media_refiner.html#aa6bfaa34b7b270d36a8e1b9e9fc6fe2e",
+"classug_1_1_partitioner___dynamic_bisection.html#a2626e52b24525d976b4ab182779f2d0baa9d2c5a7a36bef7e44b4c6e17925508c",
+"classug_1_1_power_method.html#ac039d740fca9f6f1ce015e23a5c6dbab",
+"classug_1_1_pyramid.html#ac505b461d282a9a7161f2d7b936fac86",
+"classug_1_1_reference_element.html#a756e048f540488a23c5c2c5beacf942d",
+"classug_1_1_reference_quadrilateral.html#aec012cbf1ee0676159f8ccfcc8c9e75f",
+"classug_1_1_scalar_grid_function_data.html#ac42351ae1c55e953f07746c1966fe545",
+"classug_1_1_selector.html#a5a6fee9ff915fe575d1a9b76b703a8d1",
+"classug_1_1_soma_projector.html#aeec7e6d423d263cad7c1400dd22cfd73",
+"classug_1_1_sparse_matrix_1_1const__row__iterator.html#a10bad257b430bccada1be4a0ab4ad846",
+"classug_1_1_std_data_linker.html#a6723bb90c0084dddcc2806b3395df501",
+"classug_1_1_sub_local_do_f_set.html#abf4e70b3dc2e8c7f21230bc939f900d1",
+"classug_1_1_t_e___t_r_a_n_s_p_o_s_e_d.html#a2739a6791959805acde3176f6bd30823",
+"classug_1_1_time_integrator_subject.html#aeb632c02cdfb3c15aa24654b0022b90f",
+"classug_1_1_unique_type_i_d_provider.html#a1dbd433253bcc46e4ac1fb3abc07bcc6",
+"classug_1_1_v_t_k_output.html#a4c261551ab594e680898ca4f00abfef1",
+"classug_1_1_vector.html#a027bd51e52f57364d9ad7e7eacd75c46",
+"classug_1_1_volume_descriptor.html#abae71c30f5a53d553ad7c49446719178",
+"classug_1_1bridge_1_1_expand_layers_desc.html#acae58008f5e9d7ee95f3a4d21d52e21c",
+"classug_1_1bridge_1_1_multiple_derived.html#aa70c8b81af771d581107b61cec58ba8e",
+"classug_1_1geometry__traits_3_01_constrained_quadrilateral_01_4.html#a52d82b1af2ff23754296a7dac07fc405",
+"classug_1_1node__tree_1_1_collision_edges_node.html#a096aea74442e740530bb8dae9f58a627",
+"classug_1_1vrl_1_1_smart_ptr_cls.html#a41bfcda49c988b4c4d0494b1e25e080b",
+"compile__info_8cpp.html",
+"data__export_8h.html",
+"dir_3a3fb9cfc6bd5fcc189b93787d6b701f.html",
+"domain_8h.html#ga7d983d311637441ffdb369630c727dec",
+"edge__length__adjustment_8h_source.html",
+"error__indicator_8h.html#aeb43ab6ebe4caa269368b1ba5c8388ed",
+"file__io__bridge_8cpp.html",
+"file__util__posix_8cpp.html#ga50c891d065ba19b86a9fc641f913cdc2",
+"fvho__geom_8h_source.html",
+"gpusparsematrix_8h_source.html",
+"grid__function__bridge_8cpp.html#ac0c8030826698c0509d5960334f6ba42",
+"group__algebra__bridge.html",
+"group__lib__algebra.html#ga066c012e62162f3245b680048351bee9",
+"group__lib__disc__domain.html#ga699c7c3b9d1077f1f54a0d08bb9a630a",
+"group__lib__grid__algorithms__edge__util.html#ga9ac3258a67343fc5e0dec267bb84d33d",
+"group__lib__grid__algorithms__neighborhood__util.html#ga64d30f57eb78190a94e044e8c63daa51",
+"group__lib__grid__algorithms__selection__util.html#gaafe097ce495097d9a7762bd7b5997964",
+"group__lib__grid__algorithms__vertex__util.html#gaafbc69674722a7e02b72c6017321f07c",
+"group__math__matrix.html#ga2ffabab0815945294d319b81f06b6a99",
+"group__misc__bridge.html#ga97faf6b7c6a4a4ea692683b81cfe8fdd",
+"group__refinement__bridge.html#ga1207dd3a40bc504a0b64143d232dfe21",
+"group__scripts__util__table.html#ga7ea9b6d7e6c0bf8c5c03fbcc1fe5b06e",
+"group__test__bridge.html#gab32f3ddf3854e8a0534166c9b0f1c6aa",
+"group__ugbase__common.html#gabe11b6ca90b598c8a62537f2985816fc",
+"group__ugbase__common__util.html#ga4118d600e46d25c034b9af2dcd551000",
+"group__ugbase__mathutil.html#ga920f5b6225fa3d7fe5db6f7679c9d76b",
+"group__vectors.html#gac7ceb6b2dac55c4da1dafcedab81701a",
+"info__commands_8h.html#a38c28f5e4d5394c1ba63b61f4b65e29c",
+"lagrange__local__dof_8cpp.html#a100ae0b578348256591b1e4d6587a013",
+"lexer_8cpp.html#ad557845057f187eec4be07e2717d2afa",
+"lib__grid_2algorithms_2serialization_8h.html#ga0f1dd81f3cb1079f33db92c1bcbe00c3",
+"local__transfer__interface_8h.html#a597ba76f5d189a67adc23003cfdf62b6",
+"main__page_8doxygen.html",
+"math__tensor_8h.html#gac013773efcf28ced6c2055f8bf4af4f7",
+"math__vector__functions_8h.html#gac7ceb6b2dac55c4da1dafcedab81701a",
+"misc__bridges_2misc__bridge_8cpp.html#gaaca8bcbadd0daf175c6b1e97bc2619f1",
+"namespacemembers_x.html",
+"namespaceug.html#a1a73c71bd6cc4199cb73be30ffa0522d",
+"namespaceug.html#a34575667a340458a9fa993350a99ed87",
+"namespaceug.html#a536877df7615033777b7eabba65f521c",
+"namespaceug.html#a6b373f5c5287f0f91adab473d58ebdbd",
+"namespaceug.html#a8a135f48c0e7b72ae7495148c3bb5398",
+"namespaceug.html#aa7c8d3564bf0e9562b0285bc03e3bb48",
+"namespaceug.html#ac633f489c53cc2675c1439c6cde9179f",
+"namespaceug.html#ae40a242f08f56a4511e22f7651d13714",
+"namespaceug_1_1_connection_viewer.html#ad622384a5b3e74fd96469879e16dfd3a",
+"namespaceug_1_1hex__rules.html",
+"namespaceug_1_1vrl.html#a293b8d288649a6cab9cf62448b21dfe1",
+"node_8h.html#a9ff9a58faa345d145c61dfceec55d676",
+"orientation__util_8h_source.html",
+"page_troubleshooting.html#troubleshooting_cant_compile_or_link",
+"parallel__global__subdivision__refiner_8cpp.html",
+"parser_8cpp.html#a164f2f81ce9c9677c36ded9ca2a62d5c",
+"partition__map_8h_source.html",
+"polychain__util_8cpp.html#ga75568f0b7fca5283caf4bd72371eaeac",
+"quadrialteral__util__impl_8h.html#ad960ba8900bcaf8732d3414354f0c6e9",
+"scale__add__linker__impl_8h_source.html",
+"shell_8h.html#a46f748fc055c59ade46ae59e3718bdf0",
+"standard__bridges_8h_source.html",
+"structnode_type.html",
+"structug_1_1_com_pol___new_constrained_verticals_1_1_entry.html#aec76691e6615664d5af932946470a374",
+"structug_1_1_element_storage_selector.html#ad6beb2f11e7dff4f2728318c2083c951",
+"structug_1_1_i_obstacle_constraint_1_1_const_number_data.html",
+"structug_1_1_n_tree_desc.html#acc211161243415287cec1383926acc1d",
+"structug_1_1_s_c_v_fof_s_c_v_ray_intersection_wrapper.html",
+"structug_1_1attachment__reduce__traits_3_01_math_vector_3_011_01_4_01_4.html",
+"structug_1_1bridge_1_1_parameter_info_1_1_push_type_3_01const_01std_1_1vector_3_01_smart_ptr_3_01_t_class_01_4_01_4_01_6_01_4.html#a8422fcb0106ae28bfbc96d7d632492aa",
+"structug_1_1bridge_1_1_register_domain_algebra_dependent.html",
+"structug_1_1bridge_1_1lua_1_1_lua_parsing_3_01int_01_4.html",
+"structug_1_1fv1__traits___reference_face3d.html#ac195440eca97a1d482f6d1a6f61307d1",
+"structug_1_1linker__traits_3_01_math_vector_3_01dim_01_4_00_01_math_vector_3_01dim_01_4_00_01number_01_4.html",
+"structug_1_1vector__attachment__reduce__traits.html#afbd4f5d9993bd633bd9205d1ed3e78c6",
+"subset__util_8cpp.html#gaa8bb2ece8d12b21b33299c3d532ded2b",
+"time__integrator__observer__interface_8h.html#a75da0528dfabdeeb5d19d1cbd94464f5",
+"type__converter_8h.html#a54c545f3d5a49f0ada8e338e5c906724",
+"vec__math__bridge_8cpp.html"
+];
+
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';

@@ -40,6 +40,13 @@
 #include "bridge/util.h"
 #include "bridge/util_domain_algebra_dependent.h"
 
+// Pybind11 include
+#ifdef UG_USE_PYBIND11
+#include "bindings/pybind/ug_pybind.h"
+#include <pybind11/pybind11.h>
+#include <pybind11/functional.h>
+#endif
+
 // lib_disc includes
 #include "lib_disc/function_spaces/grid_function.h"
 #include "lib_disc/function_spaces/interpolate.h"
@@ -94,6 +101,11 @@ static void DomainAlgebra(TRegistry& reg, string grp)
 		reg.add_function("Interpolate", static_cast<void (*)(number, SmartPtr<TFct>, const char*, number)>(&ug::Interpolate<TFct>),grp, "Integral", "ConstantValue#GridFunction#Component#Time");
 		reg.add_function("Interpolate", static_cast<void (*)(number, SmartPtr<TFct>, const char*, const char*)>(&ug::Interpolate<TFct>), grp, "Integral", "ConstantValue#GridFunction#Component#Subsets");
 		reg.add_function("Interpolate", static_cast<void (*)(number, SmartPtr<TFct>, const char*)>(&ug::Interpolate<TFct>),grp, "Integral", "ConstantValue#GridFunction#Component");
+
+		// Pybind 11 function
+		#ifdef UG_USE_PYBIND11
+		reg.add_function("Interpolate4py", static_cast<void (*)(const char*, const char*, SmartPtr<TFct>, const char*)>(&ug::Interpolate4py<TFct>),grp, "Integral", "PythonFunctionAsString#Functionname#GridFunction#Component");
+		#endif
 
 		#ifdef UG_FOR_LUA
 		// function-string

@@ -1,0 +1,27 @@
+var classug_1_1_cylinder_projector =
+[
+    [ "CylinderProjector", "classug_1_1_cylinder_projector.html#a87bc2b49ec6de2e04f467439f183696e", null ],
+    [ "CylinderProjector", "classug_1_1_cylinder_projector.html#af5146f612cd00f12e7f40d7df3cdd667", null ],
+    [ "CylinderProjector", "classug_1_1_cylinder_projector.html#a57f46c7ea4634754bc4a6150c8b3fba2", null ],
+    [ "CylinderProjector", "classug_1_1_cylinder_projector.html#acdd4f063809a5d012f4d588f5cd9fb41", null ],
+    [ "CylinderProjector", "classug_1_1_cylinder_projector.html#ab3be33f56e44188270bb4730397d9b07", null ],
+    [ "~CylinderProjector", "classug_1_1_cylinder_projector.html#a6a1dc5fce12ddd611ce8d5628433ea96", null ],
+    [ "axis", "classug_1_1_cylinder_projector.html#ac0636bf0e4d01ccc1e746981e38e44e2", null ],
+    [ "center", "classug_1_1_cylinder_projector.html#a83c063a29d85eafc5e94edeb56a635cb", null ],
+    [ "influence_radius", "classug_1_1_cylinder_projector.html#a9c239fe33b5e332e7bbe5f98d6ab74a9", null ],
+    [ "new_vertex", "classug_1_1_cylinder_projector.html#ab14ed5c38126f9e854e7c51dea26fdcb", null ],
+    [ "new_vertex", "classug_1_1_cylinder_projector.html#a8f4a7ec5e200cfc43399c733d52ffd91", null ],
+    [ "new_vertex", "classug_1_1_cylinder_projector.html#a02fc754af84c074b8424ac6e87d7a51f", null ],
+    [ "perform_projection", "classug_1_1_cylinder_projector.html#ad609c14a676e5a2705e69e3fc7efe477", null ],
+    [ "radius", "classug_1_1_cylinder_projector.html#a5f7169e5e95467e972f2028b478a9ba9", null ],
+    [ "serialize", "classug_1_1_cylinder_projector.html#a53c8c9ca93ae51dc2021cb4e9f59fd29", null ],
+    [ "set_axis", "classug_1_1_cylinder_projector.html#a0cdb09161c895e8669b8def1bcffdd6e", null ],
+    [ "set_center", "classug_1_1_cylinder_projector.html#ae92fb6c3b2c10e90f414132277ff1d6e", null ],
+    [ "set_influence_radius", "classug_1_1_cylinder_projector.html#adfda12fb40fbf0a70dd29b0c4027776e", null ],
+    [ "set_radius", "classug_1_1_cylinder_projector.html#a230f6de999b6ea6d982efbfb0045e7fe", null ],
+    [ "boost::serialization::access", "classug_1_1_cylinder_projector.html#ac98d07dd8f7b70e16ccb9a01abf56b9c", null ],
+    [ "m_axis", "classug_1_1_cylinder_projector.html#a56387abed3906ecd5c14c35bb240c8b1", null ],
+    [ "m_center", "classug_1_1_cylinder_projector.html#a1a2657b67cd334f1b03c2cfd8b4b6a1f", null ],
+    [ "m_influenceRadius", "classug_1_1_cylinder_projector.html#acc7390e60cf182eacd7df33a942c43e2", null ],
+    [ "m_radius", "classug_1_1_cylinder_projector.html#ac99cd27e0449a6a42aab5dfbebb62d46", null ]
+];
